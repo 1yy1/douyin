@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.page-header{
+  margin-left:1000px;
+   margin-bottom:280px;
+  text-decoration: none;
+  
+}
+.page-mainer,.img{
+  margin-left:900px;
+  margin-bottom: 10px;
+ 
+}
+.page-footer nav{
+  text-decoration: none;
+  color: #000;
+}
